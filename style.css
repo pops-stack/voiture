@@ -1,7 +1,169 @@
 /*
 Theme Name: Voiture
-Author: the WordPress team
-Description: Twenty Twenty-Five emphasizes simplicity and adaptability. It offers flexible design options, supported by a variety of patterns for different page types, such as services and landing pages, making it ideal for building personal blogs, professional portfolios, online magazines, or business websites. Its templates cater to various blog styles, from text-focused to image-heavy layouts. Additionally, it supports international typography and diverse color palettes, ensuring accessibility and customization for users worldwide.
+Theme URI: https://wordpress.org/themes/
+Author: Laszlo, Pauline
+Author URI: https://www.corentinlaigneau.fr
+Description: Thème projet de cours voitures
 Version: 1.0
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
 */
+
+
+/* CLASS FONCTIONNEL */
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container-post{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* MISE EN PAGE GENERALE */
+
+body{
+    background-color: #e8e7e7;
+    margin: 0;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+/* TITRE */
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/* BOUTON */
+
+.permalink-btn{
+    display: block;
+    width: fit-content;
+    padding: 15px 20px;
+    color: #FFF;
+    background-color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+
+/* HEADER */
+
+header{
+    padding: 20px 0;
+}
+
+header nav{
+    align-items: center;
+}
+
+.header-logo img{
+    display: block;
+    height: 200px;
+    width: fit-content;
+    object-fit: contain;
+}
+
+.header-nav {
+    list-style: none;
+    gap: 20px;
+}
+
+.header-nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+/* MAIN */
+
+/* Post Card */
+
+.post-card-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+    flex-wrap: wrap;
+}
+
+.post-card{
+    width: 32%;
+}
+
+.card-img-container{
+    height: 300px;
+}
+
+.card-img-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Film */
+
+.film-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.film-card{
+    width: 24%;
+    text-align: center;
+}
+
+.film-card h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+}
+
+.film-card a {
+    margin: 0 auto;
+}
+/* FOOTER */
+
+footer{
+    color: #FFF;
+    padding: 40px 0;
+}
+
+footer a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer li{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer img{
+    display: block;
+    height: 150px;
+}
