@@ -12,6 +12,7 @@ function montheme_support(){
     add_theme_support('custom-logo');
 }
 
+add_action('after_setup_theme', 'montheme_support');
 
 //  Fonction pour mettre notre feuille CSS dans la queue des scripts
  function theme_style(){
