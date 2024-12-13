@@ -1,5 +1,8 @@
 <?php get_header(); ?>
 
-<h1>Page d'accueil</h1>
+<section id="hero">
+    <h1>Offrez-vous l’excellence automobile :<br>hypercars et supercars disponibles<br>dès maintenant.</h1>
+</section>
+
 
 <?php get_footer(); ?>

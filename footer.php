@@ -21,8 +21,8 @@
                 <?php if(get_theme_mod('instagram-link')): ?>
                     <li><a href="<?php echo get_theme_mod('instagram-link'); ?>">Instagram</a></li>
                 <?php endif ?>
-                <?php if(get_theme_mod('twitter-link')): ?>
-                    <li><a href="<?php echo get_theme_mod('twitter-link'); ?>">Twitter</a></li>
+                <?php if(get_theme_mod('youtube-link')): ?>
+                    <li><a href="<?php echo get_theme_mod('youtube-link'); ?>">Youtube</a></li>
                 <?php endif ?>   
             </ul>
         </div>

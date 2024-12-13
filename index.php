@@ -1,6 +1,6 @@
 <?php get_header()?>
 
-    <h1>Les derniers articles</h1>
+    <h1>Nos dernières actualités</h1>
     
     <?php if (have_posts()): ?>
         <div class="container post-card-container">

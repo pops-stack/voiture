@@ -24,12 +24,12 @@ add_action('customize_register', function(WP_Customize_Manager $manager){
         'section' => 'montheme_social'
     ]));
 
-    $manager->add_setting('twitter-link', [
+    $manager->add_setting('youtube-link', [
         'default' => ""
     ]);
 
-    $manager->add_control(new WP_Customize_Control($manager, 'twitter-link', [
-        'label' => 'Lien Twitter',
+    $manager->add_control(new WP_Customize_Control($manager, 'youtube-link', [
+        'label' => 'Lien Youtube',
         'section' => 'montheme_social'
     ]));
 
